@@ -16,7 +16,7 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from rest_framework import routers
-from _django.gvai import views
+from GoodVaibes._django._django.gvai import views
 
 # Wire up API using automatic URL routing, include login URLS for the browsable API
 

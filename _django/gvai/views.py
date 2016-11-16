@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from rest_framework import viewsets
-from GoodVaibes._django.gvai.serializers import AlbumSerializer, ArtistSerializer, SongSerializer
+from gvai.serializers import AlbumSerializer, ArtistSerializer, SongSerializer
 
 # Create your views here.
 

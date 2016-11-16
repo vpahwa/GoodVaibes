@@ -21,7 +21,7 @@ from gvai import views
 router = routers.DefaultRouter()
 router.register(r'Album', views.AlbumViewSet)
 router.register(r'Artist', views.ArtistViewSet)
-router.register(r'Song', views.GroupViewSet)
+router.register(r'Song', views.SongViewSet)
 
 # Wire up API using automatic URL routing, include login URLS for the browsable API
 

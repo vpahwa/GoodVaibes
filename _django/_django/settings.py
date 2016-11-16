@@ -25,7 +25,7 @@ SECRET_KEY = 'xuf0txl(nq6tki)13+(l4hkmxnr911^jg$-6n8vuag5*%&!pjw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['fa16-cs411-25.cs.illinois.edu']
 
 
 # Application definition

@@ -15,7 +15,6 @@ class AlbumViewSet(viewsets.ModelViewSet):
 	serializer_class = AlbumSerializer
 
 	class Meta:
-		managed = False
 		db_table = 'Album'
 
 
@@ -29,7 +28,6 @@ class ArtistViewSet(viewsets.ModelViewSet):
 	serializer_class = ArtistSerializer
 
 	class Meta:
-		managed = False
 		db_table = 'Artist'
 
 
@@ -43,5 +41,4 @@ class SongViewSet(viewsets.ModelViewSet):
 	serializer_class = SongSerializer
 
 	class Meta:
-		managed = False
 		db_table = 'Song'

@@ -18,6 +18,11 @@ from django.contrib import admin
 from rest_framework import routers
 from _django._django.gvai import views
 
+router = routers.DefaultRouter()
+router.register(r'Album', views.AlbumViewSet)
+router.register(r'Artist', views.ArtistViewSet)
+router.register(r'Song', views.GroupViewSet)
+
 # Wire up API using automatic URL routing, include login URLS for the browsable API
 
 urlpatterns = [

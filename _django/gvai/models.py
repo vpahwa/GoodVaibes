@@ -8,15 +8,15 @@ from django.db import models
 class Album(models.Model):
 	num_tracks = models.IntegerField()
 	genres = models.TextField()
-    release_date = models.TextField()
-    album_id = models.IntegerField(primary_key=True)
-    popularity = models.IntegerField()
-    record_label = models.TextField()
-    title = models.TextField()
+	release_date = models.TextField()
+	album_id = models.IntegerField(primary_key=True)
+	popularity = models.IntegerField()
+	record_label = models.TextField()
+	title = models.TextField()
 
-    class Meta:
-        managed = False
-        db_table = 'Album'
+	class Meta:
+    	managed = False
+    	db_table = 'Album'
 
 
 class Artist(models.Model):
@@ -26,8 +26,8 @@ class Artist(models.Model):
 	artist_id = models.IntegerField(primary_key=True)
 
 	class Meta:
-        managed = False
-        db_table = 'Artist'
+    	managed = False
+    	db_table = 'Artist'
 
 
 class Song(models.Model):
@@ -39,5 +39,5 @@ class Song(models.Model):
 	artist = models.CharField(max_length=11)
 
 	class Meta:
-        managed = False
-        db_table = 'Song'
+    	managed = False
+    	db_table = 'Song'

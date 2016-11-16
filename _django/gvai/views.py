@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from gvai.models import Album, Artist, Song
 from rest_framework import viewsets
 from gvai.serializers import AlbumSerializer, ArtistSerializer, SongSerializer
 

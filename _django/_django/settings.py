@@ -87,7 +87,7 @@ DATABASES = {
         'USER': 'root',
         'PASSWORD' : 'cs411fa2016',
         'HOST': '127.0.0.1',
-        'PORT': '8080'
+        'PORT': ''
     }
 }
 

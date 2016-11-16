@@ -15,7 +15,13 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from rest_framework import routers
+from GoodVaibes._django.gvai import views
+
+# Wire up API using automatic URL routing, include login URLS for the browsable API
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
+    # url(r'^admin/', admin.site.urls),
+    url(r'^', include router.urls),
+    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]

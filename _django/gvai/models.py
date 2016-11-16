@@ -7,7 +7,7 @@ from django.db import models
 
 class Album(models.Model):
 	num_tracks = models.IntegerField()
-    genres = models.TextField()
+	genres = models.TextField()
     release_date = models.TextField()
     album_id = models.IntegerField(primary_key=True)
     popularity = models.IntegerField()

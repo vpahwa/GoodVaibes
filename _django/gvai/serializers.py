@@ -1,4 +1,4 @@
-from django.contrib.auth.models import Album, Artist, Song
+from gvai.models import Album, Artist, Song
 from rest_framework import serializers
 
 

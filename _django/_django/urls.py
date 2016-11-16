@@ -16,7 +16,7 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from rest_framework import routers
-from _django._django.gvai import views
+from _django import views
 
 router = routers.DefaultRouter()
 router.register(r'Album', views.AlbumViewSet)

@@ -1,4 +1,4 @@
-GoodVaibes
+GoodVaibes- a Django rest framework example
 
 source venv/bin/activate to activate virtualenv
 
